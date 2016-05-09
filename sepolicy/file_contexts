@@ -1,4 +1,4 @@
-/data(/.*)?           u:object_r:cameradcc_file:s0
+/data(/.*)?                              u:object_r:cameradcc_file:s0
 
 #rild
 /data/radio/nv_data.bin.*                u:object_r:radio_data_file:s0
@@ -57,6 +57,6 @@
 /sys/devices/platform/bcm2076_bluetooth/rfkill(/.*)?  u:object_r:sysfs_bluetooth_writable:s0
 
 # atmel_touch.sh
-/system/bin/atmel_touch\.sh              u:object_r:atmeltouch_exec:s0
+/system/bin/atmel_touch\.sh                    u:object_r:atmeltouch_exec:s0
 
 /system/vendor/bin/camera_dcc\.sh              u:object_r:cameradcc_exec:s0
